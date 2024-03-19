@@ -16,14 +16,14 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
-.header-logo-web {
-    color: #4d5ae5;
+.header-logo-studio {
+    color: #2e2f42;
 }
 
 .navigation {
@@ -43,11 +43,12 @@ a {
     text-decoration: underline;
 }
 
-.contacts {
+.address {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
 .address-link {
@@ -74,7 +75,6 @@ a {
 
 .order-button {
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
