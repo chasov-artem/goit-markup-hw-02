@@ -34,15 +34,32 @@ a {
     color: #2e2f42;
 }
 
+.navigation:hover {
+    color: #404bbf;
+}
+
+.active-studio:active {
+    color: #404bbf;
+    text-decoration: underline;
+}
+
 .contacts {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
-h1 {
+.address-link {
+    color: currentcolor;
+}
+
+.address-link:hover {
+        color: #404bbf;
+}
+
+
+.hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -60,13 +77,18 @@ h1 {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background: #404bbf;
 }
 
 .our-team {
     background: #f4f4fd;
 }
 
-h3 {
+.features-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -80,10 +102,10 @@ h3 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    font-style: normal;
 }
 
-h2 {
+.our-team-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -98,7 +120,17 @@ h2 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
+    font-style: normal;
+}
+
+.card-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+
 }
 
 .porfolio-text {
@@ -106,7 +138,24 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    font-style: normal;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.portfolio-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .footer {
@@ -133,4 +182,5 @@ h2 {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    font-style: normal;
 }
