@@ -59,6 +59,9 @@ a {
         color: #404bbf;
 }
 
+.address-link:focus {
+    color: #404bbf;
+}
 
 .hero-title {
     font-weight: 700;
