@@ -78,10 +78,18 @@ a {
     background: #4d5ae5;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
 .order-button:hover {
     background: #404bbf;
+}
+
+.order-button:focus {
+background-color: #404BBF;
 }
 
 .our-team {
@@ -112,6 +120,11 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.our-team-card {
+    background-color: #FFFFFF;
 }
 
 .card-text {
@@ -148,6 +161,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
 .portfolio-card-title {
@@ -166,14 +180,14 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 
-.footer-logo-web {
-    color: #4d5ae5;
+.footer-logo-studio {
+    color: #f4f4fd;
 }
 
 .footer-text {
